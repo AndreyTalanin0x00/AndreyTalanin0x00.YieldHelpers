@@ -14,7 +14,7 @@
     <Authors>Andrey Talanin</Authors>
     <Description>A set of utilities for creating enumerable objects using the yield operator.</Description>
     <RepositoryUrl>https://github.com/AndreyTalanin0x00/AndreyTalanin0x00.YieldHelpers.git</RepositoryUrl>
-    <Version>0.1.0-dev0</Version>
+    <Version>0.1.0-rc1</Version>
   </PropertyGroup>
 
 </Project>
