@@ -13,6 +13,13 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndreyTalanin0x00.YieldHelpers.UnitTests", "Tests\AndreyTalanin0x00.YieldHelpers.UnitTests\AndreyTalanin0x00.YieldHelpers.UnitTests.csproj", "{14ADA6EB-FCC2-4FE9-9721-308AE9ADE623}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Solution Items", "3. Solution Items", "{DE89681B-A56D-4764-B8F4-9DFCC57829DB}"
+	ProjectSection(SolutionItems) = preProject
+		..\.editorconfig = ..\.editorconfig
+		..\.gitattributes = ..\.gitattributes
+		..\.gitignore = ..\.gitignore
+		..\LICENSE.md = ..\LICENSE.md
+		..\README.md = ..\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
