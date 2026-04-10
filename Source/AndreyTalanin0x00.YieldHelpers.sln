@@ -2,6 +2,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Packages", "1. Packages", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Test Libraries", "2. Test Libraries", "{9E7BA616-5B3A-4B72-AB10-5884EFEF6AB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1. Package Tests", "2.1. Package Tests", "{B982B088-3C51-42EF-B177-28D45809DB11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Solution Items", "3. Solution Items", "{DE89681B-A56D-4764-B8F4-9DFCC57829DB}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndreyTalanin0x00.YieldHelpers", "AndreyTalanin0x00.YieldHelpers\AndreyTalanin0x00.YieldHelpers.csproj", "{B29D8B8C-E6FE-497F-8B8D-4BF647EEAA1E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndreyTalanin0x00.YieldHelpers.UnitTests", "Tests\AndreyTalanin0x00.YieldHelpers.UnitTests\AndreyTalanin0x00.YieldHelpers.UnitTests.csproj", "{14ADA6EB-FCC2-4FE9-9721-308AE9ADE623}"
@@ -23,6 +31,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B982B088-3C51-42EF-B177-28D45809DB11} = {9E7BA616-5B3A-4B72-AB10-5884EFEF6AB7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {432FC2C5-CFEF-4A70-B8C6-C7EB71429770}
